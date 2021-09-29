@@ -2,7 +2,7 @@
 var texto = "Todos pensam em mudar a humanidade e ninguém pensa em mudar a si mesmo."
 console.log('O array texto tem: ' + texto.length + ' elementos');
 console.log(texto.toUpperCase());
-console.log(texto.match(/[aeioué]/ig).length);
+console.log('O numero de vogais na string texto é: ' + texto.match(/[aeioué]/ig).length);
 console.log(texto.toLowerCase());
 console.log('A palavra humanidade esta no index ' + texto.indexOf('humanidade'));
 
